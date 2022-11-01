@@ -8,7 +8,13 @@
 }
 
 /* Bovenste menu */
-
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 800px;
+  width: 800px;
+}
 .up-menu {
   display: flex;
   flex-direction: row;
