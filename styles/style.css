@@ -8,24 +8,84 @@
 }
 
 /* Bovenste menu */
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 800px;
-  width: 800px;
+.all-upper-elements {
+  max-width: 1500px;
 }
-.up-menu {
+.all-upper-elements .logo {
+  display: flex;
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+.all-upper-elements .all-up-menu {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 20px;
-  height: 10px;
+  float: right;
+  padding-top: 20px;
 }
 
-ul#horizontal-list-2 li {
+.all-upper-elements ul.up-menu li {
   color: black;
   list-style: none;
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main nav */
+.mainmenu {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+/* Mi ma mapje*/
+iframe {
+  float: right;
+}
+.i4ewOd-pzNkMb-haAclf {
+  display: none;
+}
+.lijst {
+  float: left;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: red;
+  width: 25%;
+  height: 35em;
+}
+
+.sidebar-items {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 100px;
+  padding-left: 3em;
+  text-decoration: none;
+}
+
+.hide {
+  float: right;
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+}
+.show {
+  float: right;
+  color: black;
+  border: none;
+  background-color: rgba(255, 255, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
 }

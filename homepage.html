@@ -5,21 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles\style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap"
+      rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap");
+    </style>
     <title>Mijn Oba</title>
   </head>
   <body>
-    <div class="logo">
-      <img src="images/logo-oba.png" />
-    </div>
-    <div class="up-menu">
-      <ul id="horizontal-list-2">
-        <li>a→A |</li>
-        <li>Hoog contrast |</li>
-        <li>&#x1F1F3; &#x1F1F1;</li>
-      </ul>
-    </div>
+    <header>
+      <!--style-->
 
+      <!--upper menu-->
+
+      <div class="all-upper-elements">
+        <div class="logo">
+          <img src="images/logo-oba.png" />
+        </div>
+        <nav class="all-up-menu">
+          <a href="#">Contrast</a>
+          <a href="#">&#x1F1F3; &#x1F1F1;</a>
+        </nav>
+      </div>
+      <!--main menu-->
+      <div class="mainmenu">
+        <nav class="all-main-nav"></nav>
+      </div>
+    </header>
+    <div class="lijst"></div>
+    <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1zb4xSy41lm8CF_kkUQXK4CXRR4xncAE&ehbc=2E312F"
+      width="640"
+      height="480">
+    </iframe>
+    <div class="sidebar">
+      <button class="hide">≤</button>
+      <button class="show">≥</button>
+      <a href="#" class="sidebar-items">Home</a>
+      <a href="#" class="sidebar-items">Reserveren</a>
+      <a href="#" class="sidebar-items">E-books</a>
+      <a href="#" class="sidebar-items">Collectie</a>
+    </div>
     <script type="text/javascript" src="scripts\script.js"></script>
   </body>
 </html>
