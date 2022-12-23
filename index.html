@@ -42,13 +42,20 @@
       height="480"
       alt="map van alle oba's">
     </iframe>
-    <div class="sidebar">
-      <button class="hide">≤</button>
-      <button class="show">≥</button>
-      <a href="#" class="sidebar-items">Home</a>
-      <a href="#" class="sidebar-items">Reserveren</a>
-      <a href="#" class="sidebar-items">E-books</a>
-      <a href="#" class="sidebar-items">Collectie</a>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">Item 1</div>
+      <div class="sidebar-item">Item 2</div>
+      <div class="sidebar-item">Item 3</div>
+      <div class="sidebar-item">Item 4</div>
+      <div
+        class="sidebar-collapse-btn"
+        id="collapse-btn"
+        onclick="toggleSidebar()">
+        ◄
+      </div>
+    </div>
+    <div class="sidebar-expand-btn" id="expand-btn" onclick="toggleSidebar()">
+      ►
     </div>
     <script type="text/javascript" src="scripts\script.js"></script>
   </body>
